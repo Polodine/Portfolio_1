@@ -3,21 +3,21 @@
   font-weight: normal;
   font-style: normal;
   src: url("fonts/inconsolata.regular-webfont.eot");
-  src: url("fonts/inconsolata.regular-webfont.eot#iefix") format('embedded-opentype'), url("fonts/inconsolata.regular-webfont.ttf") format('truetype'), url("fonts/inconsolata.regular-webfont.woff") format('woff'), url("fonts/inconsolata.regular-webfont.woff2") format('woff2');
+  src: url("fonts/inconsolata.regular-webfont.eot#iefix") format('embedded-opentype'), url("fonts/inconsolata.regular-webfont.woff") format('woff'), url("fonts/inconsolata.regular-webfont.ttf") format('truetype'), url("fonts/inconsolata.regular-webfont.woff2") format('woff2');
 }
 @font-face {
   font-family: 'playfairdisplay-regular';
   font-weight: normal;
   font-style: normal;
   src: url("fonts/playfairdisplay-regular-webfont.eot");
-  src: url("fonts/playfairdisplay-regular-webfont.eot#iefix") format('embedded-opentype'), url("fonts/playfairdisplay-regular-webfont.ttf") format('truetype'), url("fonts/playfairdisplay-regular-webfont.woff") format('woff'), url("fonts/playfairdisplay-regular-webfont.woff2") format('woff2');
+  src: url("fonts/playfairdisplay-regular-webfont.eot#iefix") format('embedded-opentype'), url("fonts/playfairdisplay-regular-webfont.woff") format('woff'), url("fonts/playfairdisplay-regular-webfont.ttf") format('truetype'), url("fonts/playfairdisplay-regular-webfont.woff2") format('woff2');
 }
 @font-face {
   font-family: 'ubuntu-light';
   font-weight: normal;
   font-style: normal;
   src: url("fonts/ubuntu-light-webfont.eot");
-  src: url("fonts/ubuntu-light-webfont.eot#iefix") format('embedded-opentype'), url("fonts/ubuntu-light-webfont.ttf") format('truetype'), url("fonts/ubuntu-light-webfont.woff") format('woff'), url("fonts/ubuntu-light-webfont.woff2") format('woff2');
+  src: url("fonts/ubuntu-light-webfont.eot#iefix") format('embedded-opentype'), url("fonts/ubuntu-light-webfont.woff") format('woff'), url("fonts/ubuntu-light-webfont.ttf") format('truetype'), url("fonts/ubuntu-light-webfont.woff2") format('woff2');
 }
 body {
   font-family: 'playfairdisplay-regular';
