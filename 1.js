@@ -2,7 +2,7 @@
 $(function(){
 	var coordsButtonForPress = document.getElementById('load_post').getBoundingClientRect();
 	var valForShowButtonForPress = false;
-	if ((coordsButtonForPress.top > 0) && (coordsButtonForPress.bottom > 0)){
+	if ((coordsButtonForPress.top > 60) && (coordsButtonForPress.top < $(window).height() - 60)){
 		$('#load_post').popover('show');
 		valForShowButtonForPress = true;
 	}
@@ -27,7 +27,7 @@ $(function(){
 		e.preventDefault();
 		if (val_for_not_reajaxing) return;
 		$('.section_1, .response, .section_2, #load_post').animate({opacity: 0}, 600);
-		$('#load_post').popover('hide');
+		$('#load_post').popover('destroy');
 		setTimeout(leaveAComment, 650);
 		val_for_not_reajaxing = true;
 	})
