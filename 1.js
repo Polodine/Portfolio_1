@@ -1,5 +1,4 @@
 ('use strict')
-
 $(function(){
 	// leaveAComment();
 	var val_for_not_reajaxing = false;
