@@ -1,4 +1,5 @@
 ('use strict')
+
 $(function(){
 	// leaveAComment();
 	var val_for_not_reajaxing = false;
@@ -10,6 +11,8 @@ $(function(){
 		val_for_not_reajaxing = true;
 	})
 })
+
+
 
 function leaveAComment(){
 	var sectionPost = document.createElement('div');
